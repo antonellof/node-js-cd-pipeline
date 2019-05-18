@@ -1,3 +1,8 @@
 {
-    "name": "node-cd"
+    "name": "node-cd",
+    "builds": [{
+        "src": "index.js",
+        "use": "@now/node-server"
+    }]
 }
+
